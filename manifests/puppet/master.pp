@@ -1,4 +1,5 @@
 class roles::puppet::master{
-  contain profiles::puppet::hiera
-  contain profiles::puppet::master
+  class {'::profiles::puppet::master':
+            require ::profiles::puppet::hiera
+            }
 }
