@@ -13,7 +13,7 @@ Add roles such as below, for for the pragmatic use
 
 ##ToFix
 - ::profiles::puppet::hiera must run before the ::profiles::puppet::master
-  - This can be fixed by using puppet run stages. 
+  - This can be fixed by using puppet run stages.Which can ensure that ::profiles::puppet::hiera runs before the Main run stage
   
 ##Note
 - This is not a stand alone moudle , it is used in conjustion with the puppet moudles & bootscript.
