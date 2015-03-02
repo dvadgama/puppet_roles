@@ -2,7 +2,7 @@
 This module demonstrates how one can build useful roles with the availbe profiles
 
 ##Current roles
-- roles::puppet::master : Builds the puppet master with hiera support
+- **roles::puppet::master:** Builds the puppet master with hiera support
 
 ##Todo
 Add roles such as below, for for the pragmatic use
@@ -11,7 +11,7 @@ Add roles such as below, for for the pragmatic use
  - stage::database::mysql
  - etc
 
-#ToFix
+##ToFix
 - ::profiles::puppet::hiera must run before the ::profiles::puppet::master
   - This can be fixed by using puppet run stages. 
   
