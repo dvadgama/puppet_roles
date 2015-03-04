@@ -17,4 +17,5 @@ Add roles such as below, for for the pragmatic use
   
 ##Note
 - This is not a stand alone moudle , it is used in conjustion with the puppet moudles & bootscript.
-- you will need a bootstrap script to get the comple picture, which will be soon there in my GitHub
+- you will need this [bootstrap](https://github.com/dvadgama/machine_build_scripts/tree/master/bootstrap) script to understand the full picture
+
